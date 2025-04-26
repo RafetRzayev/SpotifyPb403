@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotify.WPF", "Spotify.WPF\Spotify.WPF.csproj", "{A655016B-CC0E-473F-9441-C4D5268CD4DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotify.Domain", "Spotify.Domain\Spotify.Domain.csproj", "{52C4F451-8A3B-4D65-88F8-E0CBC7E345DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotify.Infrastructure", "Spotify.Infrastructure\Spotify.Infrastructure.csproj", "{EB2E7CD1-E6B4-4F01-945D-DF10B68B73B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotify.Application", "Spotify.Application\Spotify.Application.csproj", "{B1D530EE-2239-4229-88AF-BB48D56F7A29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotify.ConsoleUI", "Spotify.ConsoleUI\Spotify.ConsoleUI.csproj", "{E08BBF6B-9CC6-4526-B7C5-CB31DE0470D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A655016B-CC0E-473F-9441-C4D5268CD4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A655016B-CC0E-473F-9441-C4D5268CD4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A655016B-CC0E-473F-9441-C4D5268CD4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A655016B-CC0E-473F-9441-C4D5268CD4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C4F451-8A3B-4D65-88F8-E0CBC7E345DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C4F451-8A3B-4D65-88F8-E0CBC7E345DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C4F451-8A3B-4D65-88F8-E0CBC7E345DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C4F451-8A3B-4D65-88F8-E0CBC7E345DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2E7CD1-E6B4-4F01-945D-DF10B68B73B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2E7CD1-E6B4-4F01-945D-DF10B68B73B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2E7CD1-E6B4-4F01-945D-DF10B68B73B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2E7CD1-E6B4-4F01-945D-DF10B68B73B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D530EE-2239-4229-88AF-BB48D56F7A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D530EE-2239-4229-88AF-BB48D56F7A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D530EE-2239-4229-88AF-BB48D56F7A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D530EE-2239-4229-88AF-BB48D56F7A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E08BBF6B-9CC6-4526-B7C5-CB31DE0470D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08BBF6B-9CC6-4526-B7C5-CB31DE0470D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08BBF6B-9CC6-4526-B7C5-CB31DE0470D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08BBF6B-9CC6-4526-B7C5-CB31DE0470D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE5CEFD0-E7F8-4403-8358-CC601F40E5B8}
+	EndGlobalSection
+EndGlobal
