@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:Spotify.WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <StackPanel Orientation="Vertical">
+        <ComboBox Name="cmbMusics" Width="160" Margin="10"></ComboBox>
+        <Button x:Name="btnPlay" Width="160" Margin="10" Click="btnPlay_Click">Play</Button>
+        <Button x:Name="btnStop" Width="160" Margin="10">Stop</Button>
+    </StackPanel>
 </Window>
