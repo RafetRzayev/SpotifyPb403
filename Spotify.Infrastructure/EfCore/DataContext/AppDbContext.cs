@@ -8,6 +8,7 @@ public class AppDbContext : DbContext
     public DbSet<Artist> Artists { get; set; } = null!;
     public DbSet<Album> Albums { get; set; } = null!;
     public DbSet<Music> Musics { get; set; } = null!;
+    public DbSet<ArtistMusic> ArtistMusics { get; set; } = null!;
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
